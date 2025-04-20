@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+/* Add to global CSS */
+.modal-fade-in {
+  animation: slideFadeIn 0.4s ease-out forwards;
+}
+
+.modal-fade-out {
+  animation: slideFadeOut 0.4s ease-in forwards;
+}
+
+@keyframes slideFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideFadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+}
+
+
+.special-gothic-expanded-one-regular {
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+
+.navbar{
+  font-family: "Comic Neue", cursive;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.home{
+  font-family: "Comic Neue", cursive;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.about{
+  font-family: "Nerko One", cursive;
+    font-weight: 800;
+    font-style: normal;
+}
+
+  
+
+.services{
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+}
+
+
+.footer{
+  font-family: "Parkinsans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.menu-link{
+  font-family: "Comic Neue", cursive;
+  font-weight: 1000;
+  font-style: normal;
+}
